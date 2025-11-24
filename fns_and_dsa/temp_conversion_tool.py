@@ -20,5 +20,5 @@ unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().up
         print(f"{temperature}°F is {result}°C")
     else:
         print("Invalid unit. Please enter C or F.")
-if name == "__main__":
+if _name_ == "__main__":
     main()
